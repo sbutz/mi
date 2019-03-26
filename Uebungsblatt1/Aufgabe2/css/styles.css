@@ -1,0 +1,27 @@
+h1 {
+	font-family: 'Roboto', sans-serif;
+}
+
+#footer {
+	font-family: 'Roboto', sans-serif;
+	font-style: italic;
+}
+
+table {
+	font-family: sans-serif;
+}
+
+th {
+	color: #ffffff;
+	background-color: #000000;
+}
+
+tr.even {
+	color: #000000;
+	background-color: #ffffff;
+}
+
+tr.odd {
+	color: #000000;
+	background-color: #eeeeee;
+}
