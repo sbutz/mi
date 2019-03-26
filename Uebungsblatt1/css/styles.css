@@ -1,0 +1,29 @@
+body {
+	background-color: #f0f0f0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: #000000;
+}
+
+a:hover {
+	color: rgb(0, 122, 255);
+}
+
+span {
+	color: rgb(0, 122, 255);
+}
+
+.profile-picture {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+}
+
+#footer {
+	color: #ffffff;
+}
