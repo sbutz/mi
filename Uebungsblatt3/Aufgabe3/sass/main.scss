@@ -1,0 +1,46 @@
+@import "base_styles";
+@import "font_styles";
+
+$primary-color: #c2185b;
+$background-color-card: white;
+
+#header {
+    background-color: $primary-color;
+    height: 80px;
+    color: white;
+    padding: 20px;
+}
+
+#hobbies {
+    background-color: $background-color-panel;
+    float:left;
+    width:45%;
+    margin-top:10px;
+    padding:10px;
+}
+
+#about_me {
+    background-color: $background-color-panel;
+    float:right;
+    width:45%;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding:10px;
+}
+
+#about_me img {
+    margin: 1%;
+    border-radius: 50% 50%;
+    float: left;
+}
+
+#about_me span {
+	color: #F24747;
+}
+
+#footer {
+    clear:both;
+    background-color: $primary-color;
+    text-align: center;
+    color: white;
+}

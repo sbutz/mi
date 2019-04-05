@@ -1,0 +1,16 @@
+$font: 'Roboto Condensed Light';
+
+/* font configurations */
+@font-face {
+    font-family: Roboto Condensed Light;
+    src: url("../fonts/RobotoCondensed-Light.ttf"); 
+}
+
+/* Basic Styles */
+body {
+    font-family: $font;
+}
+
+a:hover {
+	font-weight: bold;
+}
