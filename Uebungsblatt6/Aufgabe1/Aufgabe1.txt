@@ -1,0 +1,25 @@
+Funktion:
+	Eine Funktion ist ein Codeblock, der einen eigenen Scope besitzt.
+	Funktionen ermoeglichen die Reduzierung von Redundanz, Ermoeglicht Scoping
+	und Erhoeht die Wartbarkeit und Leserlichkeit des Programms.
+
+Sichtbarkeit:
+	Bestimmt welche Codesegmente welche Variablen sehen koennen.
+	In Javascript geschieht dies hauptsaechlich durch Funktionen.
+	Variablen, die innerhalb einer Funktion erstellt werden, sind auch nur in
+	dieser sichtbar und koennen nicht von ausserhalb der Funktion gelesen oder
+	geschrieben werden.
+
+Closure:
+	Ein Closure ist eine Funktion, die eine andere Funktion zurueckgibt.
+	Die zurueckgebene Funktion kann anders wie der Rest des Programms auf die
+	lokalen Variablen der Erstellerfunktion zugreifen. So koennen Variablen
+	vor Zugriff von ausserhalb geschuetzt werden.
+
+
+
+
+Output:
+
+121
+18
