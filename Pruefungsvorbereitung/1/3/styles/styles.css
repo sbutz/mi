@@ -1,0 +1,22 @@
+h1 {
+	font-family: sans-serif;
+}
+
+footer {
+	font-family: sans-serif;
+	font-style: italic;
+}
+
+th {
+	background-color: black;
+	color: white;
+	border: 1px solid white;
+}
+
+.odd {
+	background-color: #EEE;
+}
+
+.even {
+	background-color: white;
+}
