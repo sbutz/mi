@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>My super shoppinglist</title>
+
+		<link rel="stylesheet" href="css/todolist.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+		<script src="js/ShoppingListController.js"></script>
+		<script src="js/ShoppingList.js"></script>
+		<script src="js/domain/ShoppingListItem.js"></script>
+	</head>
+
+	<body>
+		<h1>My super shoppinglist</h1>
+		<div id="add-entry-container">
+			<input type="text" id="shoppingListItemInputTitle" placeholder="Was zum Einkaufen..."><br>
+			<button type="button" id="addShoppingListItem">Add item</button>
+		</div>
+
+		<div id="shopping-container">
+			<ul id="shoppingItemList">
+			</ul>
+		</div>
+	</body>
+</html>

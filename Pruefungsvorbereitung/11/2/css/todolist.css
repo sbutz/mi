@@ -1,0 +1,41 @@
+/* font configurations */
+@font-face {
+    font-family: Roboto Condensed Light;
+    src: url("../fonts/RobotoCondensed-Light.ttf"); 
+}
+
+/* Basic Styles */
+body {
+    font-family: 'Roboto Condensed Light', Helvetica, Arial, sans-serif;
+    background: #FBFBFB;
+}
+
+ul {
+	list-style: none;
+    padding: 0px;
+    width: 90%;
+}
+
+li {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: -1px;
+}
+
+button {
+    background-color: #DC4D38;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+input {
+    width: 90%;
+    font-size: 18px;
+    font-weight: 200;
+    padding: 10px;
+    box-sizing: border-box;
+}
