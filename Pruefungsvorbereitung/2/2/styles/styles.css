@@ -1,0 +1,44 @@
+.panel {
+	overflow: hidden;
+	margin: auto;
+}
+
+.column {
+	float: left;
+	margin: 10px;
+}
+
+.tiny {
+	width: 5%;
+}
+
+.narrow {
+	width: 28%;
+}
+
+.medium {
+	width: 45%;
+}
+
+.main {
+	width: 80%;
+}
+
+.wide {
+	width: 100%;
+}
+
+.wide img {
+	float: left;
+	margin: 2px;
+}
+
+@media only screen and (max-width: 768px) {
+	.narrow {
+		width: 100%;
+	}
+
+	.medium {
+		width: 100%;
+	}
+}

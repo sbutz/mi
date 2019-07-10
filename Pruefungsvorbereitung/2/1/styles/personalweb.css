@@ -1,0 +1,44 @@
+.panel {
+	overflow: hidden;
+}
+
+.column {
+	float: left;
+	width: 300px;
+	margin: 10px;
+	padding: 10px;
+}
+
+body {
+	background-color: #f0f0f0;
+	font-family: 'Roboto Light';
+}
+
+#header {
+	padding: 20px 20px 50px 20px;
+	background-color: #c2185b;
+	color: white;
+}
+
+#hobbies, #about_me {
+	background-color: white;
+}
+
+#about_me img {
+	float: left;
+	margin: 10px;
+	border-radius: 100px;
+}
+
+#footer {
+	background-color: #c2185b;
+	color: white;
+}
+
+a:hover {
+	color: orange;
+}
+
+span {
+	color: #c2185b;
+}

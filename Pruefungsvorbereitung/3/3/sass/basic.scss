@@ -1,0 +1,60 @@
+$body-bg-color: #f0f0f0;
+$bg-primary: #c2185b;
+$color-primary: white;
+$highlight-color: #F24747;
+$column-bg-color: white;
+$column-margin: 10px;
+$column-padding: 10px;
+$circle: 50% 50%;
+
+body {
+
+    font-family: $font-stack;
+    background: $body-bg-color;
+}
+
+#header {
+    background-color: $bg-primary;
+    height: 80px;
+    color: $color-primary;
+    padding: 20px;
+}
+
+.column {
+    float:left;
+    background-color: $column-bg-color;
+    width:45%;
+    padding: $column-padding;;
+    margin-top: $column-margin;
+    margin-bottom: $column-margin;
+}
+
+#hobbies {
+	@extend .column;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+#about_me {
+    @extend .column;
+    float:right;
+
+	 img {
+		margin: 1%;
+		border-radius: $circle;
+		float: left;
+	}
+
+	span {
+		color: $highlight-color;
+	}
+}
+
+#footer {
+    clear:both;
+    background-color: $bg-primary;
+    text-align: center;
+    color: $color-primary;
+}

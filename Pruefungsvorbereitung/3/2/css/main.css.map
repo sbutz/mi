@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "main.css",
+  "sources": [
+    "../sass/main.scss",
+    "../sass/base_styles.scss",
+    "../sass/font_styles.scss"
+  ],
+  "sourcesContent": [],
+  "mappings": "ACEA,IAAI,CAAC;EACD,gBAAgB,EAHA,OAAO,GAErB;;ACCN,MAAM,EAAE,CAAC,CAAF;EACH,KAAK,EAJS,KAAK;EAKnB,WAAW,EAJI,UAAU,GAErB",
+  "names": []
+}

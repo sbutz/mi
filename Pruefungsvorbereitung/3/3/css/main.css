@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "Roboto Condensed Light";
+  src: url("../fonts/RobotoCondensed-Light.ttf");
+}
+body {
+  font-family: "Roboto Condensed Light";
+  background: #f0f0f0;
+}
+
+#header {
+  background-color: #c2185b;
+  height: 80px;
+  color: white;
+  padding: 20px;
+}
+
+.column, #about_me, #hobbies {
+  float: left;
+  background-color: white;
+  width: 45%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+#about_me {
+  float: right;
+}
+#about_me img {
+  margin: 1%;
+  border-radius: 50% 50%;
+  float: left;
+}
+#about_me span {
+  color: #F24747;
+}
+
+#footer {
+  clear: both;
+  background-color: #c2185b;
+  text-align: center;
+  color: white;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,11 @@
+$color_main_font: white;
+$font_family_main: sans-serif;
+
+#title {
+    color: $color_main_font;
+    font-family: $font_family_main;
+}
+
+p {
+    @extend #title;
+}
