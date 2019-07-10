@@ -1,0 +1,22 @@
+extends layout.pug
+
+block title
+	title Meine Einkaufsliste
+
+block content
+	h1 Meine Einkaufsliste
+
+	form(action="/shoppingitems", method="post")
+		div(class="form-group")
+			input(type="text", name="name", placeholder="Artikel",
+				class="form-control mb-2 mt-2")
+			button(type="submit", class="btn btn-primary mb-2 mt-2") Hinzufügen
+
+	ul(class="list-group")
+		each item in items
+			li(class="list-group-item")= item.name
+				form(action="/shoppingitems", method="post",
+					class="form-inline float-right")
+					input(type="hidden", name="delete", value="1")
+					input(type="hidden", name="id", value=`${item.id}`)
+					button(type="submit", class="btn btn-danger") Entfernen
